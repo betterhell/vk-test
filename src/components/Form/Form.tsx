@@ -54,7 +54,7 @@ const Form = () => {
         Building: building.value,
         Level: level.value,
         Room: room.value,
-        Date: startDate.toLocaleString(),
+        Date: startDate.toLocaleString("ru-RU"),
         Commentary: textarea,
       })
     );
